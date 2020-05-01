@@ -58,7 +58,7 @@ class Login extends StatelessWidget {
                             onPressed: () {
                     
                             },
-                            child: Text('Entrar com o Facebook', 
+                            child: Text('Login with Facebook',
                                           style: TextStyle( fontSize: 16 ),),
                             color: Colors.white,
                             minWidth: screenWidth-64,
@@ -72,7 +72,7 @@ class Login extends StatelessWidget {
                             onPressed: (){
 
                             }, 
-                            child: Text('Termos e Condições de Uso', 
+                            child: Text('Terms and Conditions',
                                         style: TextStyle( fontSize: 16 ),),
                             textColor: Colors.white,
                           ),     
@@ -81,7 +81,7 @@ class Login extends StatelessWidget {
                             onPressed: (){
 
                             }, 
-                            child: Text('Políticas de Privacidade', 
+                            child: Text('Privacy Policy',
                                           style: TextStyle( fontSize: 16 ),),
                             textColor: Colors.white, 
                           ),  
